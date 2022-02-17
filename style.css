@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Poppins", sans-serif;
+    color: #4c6670f3;
+    overflow-y:hidden;
+    overflow-x: hidden;
+
+}
+
+
+h1{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    top: 120px;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+ /* MAIN */
+
+
+ 
+ main.container{
+    background: #f8f6f6;
+    height: 710px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #434343;
+    flex-grow: auto;
+ }
+
+ .container .box{
+    display: flex;
+    border:  2px solid #3e7ac81a;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding:  65px 45px; 
+    border-radius: 8px;
+    max-width: 710px;
+    margin-left: 32px;
+}
+
+
+.container .box:first-child{
+ margin-left: 0;
+}
+
+
+ .container .box .icon {
+    width: 64px;  
+    height: 64px;   
+ }
+
+ .container .box{
+     height: 235px;
+     width: 190px;
+     font-size: 85%;
+     max-width: 235px;
+ }
+
+ .box p{
+    font-style: italic;
+    font-weight: 400;
+    max-width: 225px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: #4c6670f1;
+    height: 50px;
+}
+
+ .box button{
+     position: relative;
+     padding: 1.0rem 1rem;
+     top: 55px;
+     width: 335px;
+     text-transform: uppercase;
+     cursor: pointer;
+     border: 0;
+     font-size: 15px;
+     font-weight: bold;
+     box-shadow: 0 9px #b3ccd552;
+ 
+ }
+
+ /* ANIMAÇÕES */
+
+
+ button:hover{
+     background-color: #b3ccd552;
+ }
+
+ button:active {
+    transform: translateY(5px);
+ }
+
+
+ .animation {
+   transition: 450ms 150ms ease-out;
+ }
+
+ .animation:hover{
+    width: 35px;
+    height: 35px;
+ }
+
+  
+ .animate__animated.animate__slideInUp {
+    --animate-duration: 2.5s;
+  }
+
+  .animate__animated .animate__swing {
+    --animate-duration: 4.3;
+  }
